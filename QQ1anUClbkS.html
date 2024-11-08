@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+     
+    <title>Article</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html"> Wellness Wave </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto navbar-center" id="mySidenav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Main</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="terms.html">Terms and conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- START SOFTWERE-HOME -->
+    <section class="softwere-home" id="home" style="background-image: url('./assets/images/bulksplash-karsten116-egsbvvtvccw.jpg')">
+      <div class="bg-overlay"></div>
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="softwere-home-content text-white mt-4">
+                  <h4 class="softwere-home-title text-uppercase line-height_1_4 letter-spacing_4">
+                    Article
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="softwere-home-shape-img">
+                <img
+                  src="images/home-softwere-shape.png"
+                  alt=""
+                  class="img-fluid mx-auto d-block"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- START BLOG -->
+    <section class="section blog" id="news">
+      <div class="container">
+        <div class="col mt-5 pt-3">
+          <h3>Reap the Rewards: Discover the Benefits of Regular Exercise</h3>
+          <p><strong></strong> Regular exercise is one of the most important habits you can develop for your physical and mental health. Taking regular walks, going to the gym, or engaging in any other form of physical activity can have positive effects that go beyond just improving your physique. Exercise has been proven to reduce stress levels, improve sleep quality and even boost creativity. It also helps protect against chronic diseases such as obesity, heart disease and diabetes while helping maintain a healthy weight. 
+
+The benefits don't stop there; exercising regularly may help you live longer too! Studies have found that people who engage in regular physical activity are more likely to outlive those who do not exercise at all. Additionally, research indicates that individuals who participate in vigorous activities like running experience greater longevity than their sedentary counterparts. 
+
+Exercise isn’t only beneficial for your body- it's great for your mind as well! Studies show that regular exercise increases production of endorphins which are hormones responsible for triggering positive feelings like</p>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+
+    <!-- START FOOTER -->
+    <footer class="section-footer bg-softwere-footer">
+      <div class="container">
+        <div class="row mt-4 py-4">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p class="copy-rights text-white mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Copyright
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script>
+      let elems = document.querySelectorAll('.server-name');
+      elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname;
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

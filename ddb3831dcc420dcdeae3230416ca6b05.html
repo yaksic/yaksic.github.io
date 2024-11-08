@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+     
+    <title>Article</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="71">
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html"> Tone Talk </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto navbar-center" id="mySidenav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Main</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="privacy.html">Privacy policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="terms.html">Terms and conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- START SOFTWERE-HOME -->
+    <section class="softwere-home" id="home" style="background-image: url('./assets/images/bulksplash-bradleycdunn-acbu5ay5tvk.jpg')">
+      <div class="bg-overlay"></div>
+      <div class="home-center">
+        <div class="home-desc-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="softwere-home-content text-white mt-4">
+                  <h4 class="softwere-home-title text-uppercase line-height_1_4 letter-spacing_4">
+                    Article
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="softwere-home-shape-img">
+                <img
+                  src="images/home-softwere-shape.png"
+                  alt=""
+                  class="img-fluid mx-auto d-block"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- START BLOG -->
+    <section class="section blog" id="news">
+      <div class="container">
+        <div class="col mt-5 pt-3">
+          <h3>Unlock the Power of Exercise: Discover How Regular Workouts Can Improve Your Physical and Mental Health</h3>
+          <p><strong></strong> Exercise is an important part of a healthy lifestyle, and can provide many benefits for both your physical and mental health. Regular exercise helps to reduce stress levels, improve moods, increase energy levels, strengthen the immune system, and even help you sleep better. It also has positive effects on cardiovascular health by reducing risk factors such as high blood pressure and cholesterol. Additionally, regular physical activity strengthens bones and muscles while helping maintain a healthy weight. 
+
+The most obvious benefit of exercise is improved physical fitness; however there are also other less apparent advantages that come with regular workouts. Studies have shown that people who stay active tend to be in better overall shape than those who don’t exercise at all or only do so sporadically. Exercise releases endorphins which act as natural painkillers; these hormones give exercisers an emotional boost along with their increased physical strength and stamina. Furthermore, regularly engaging in activities like running or cycling can help improve concentration skills as well as memory recall since it increases blood flow to the brain aiding cognitive functioning over time. 
+
+In addition to improving general wellbeing through its various physiological effects on the body – from releasing feel-good hormones to increasing oxygen intake - exercising can also foster greater self-esteem among individuals due to its ability to promote weight loss or muscle gain depending upon individual goals set forth before beginning any kind of regimen . Moreover , regular workouts allow us not just physically but mentally too : we become more confident about ourselves when our bodies start responding positively towards our efforts . Not only this , but making working out routine makes us more disciplined ; we learn how certain things need commitment & dedication if one wants them achieved successfully . Thus , apart from providing numerous health benefits , exercising teaches us valuable lessons applicable in everyday life scenarios too !  
+
+Overall , unlocking the power of exercise should be seen as an investment into yourself rather than something tedious & boring . Whether it’s going for a run every morning or hitting up a gym class after work – whatever works best for you ! Even small amounts of daily activity will add up over time allowing you reap long lasting rewards physically & mentally alike .. So what are you waiting for ? Get moving today & unlock the full potential within yourselves !</p>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+
+    <!-- START FOOTER -->
+    <footer class="section-footer bg-softwere-footer">
+      <div class="container">
+        <div class="row mt-4 py-4">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p class="copy-rights text-white mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Copyright
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script>
+      let elems = document.querySelectorAll('.server-name');
+      elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname;
+      });
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
